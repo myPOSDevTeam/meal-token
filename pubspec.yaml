@@ -1,0 +1,65 @@
+name: jkh_mealtoken
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.19.0 <4.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  intl: ^0.19.0
+  flutter_barcode_scanner: ^2.0.0
+  qr_flutter: ^4.1.0
+  flutter_native_splash: ^2.4.0
+  fluttertoast: ^8.0.7
+  floating_draggable_widget: ^2.1.5
+  flutter_switch: ^0.3.2
+  flutter_spinkit: ^5.2.1
+  http: ^1.2.1
+  dio: ^5.4.2+1
+  flutter_easyloading: ^3.0.5
+  flutter_secure_storage: ^9.1.1
+  shared_preferences: ^2.2.2
+  toast: ^0.3.0
+  fl_chartflutter_easyloading: ^3.0.5: ^0.68.0
+  percent_indicator: ^4.2.3
+  flutter_launcher_icons: ^0.13.1
+  flutter_barcode_listener: ^0.1.4
+  visibility_detector: ^0.4.0+2
+  dart_jsonwebtoken: ^2.14.0
+  device_imei: ^0.0.4+2
+  permission_handler: ^11.3.1
+  audioplayers: ^5.0.0
+  win32: ^5.10.1
+
+
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/img_burger_png_png.png"
+
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/images/
+    - assets/sounds/
+    - assets/sounds/beep.mp3
+  fonts: 
+    - family: Nunito
+      fonts: 
+        - asset: assets/fonts/NunitoBold.ttf
+          weight: 700
+        - asset: assets/fonts/NunitoRegular.ttf
+          weight: 400
+        - asset: assets/fonts/NunitoSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/NunitoMedium.ttf
+          weight: 500
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterBold.ttf
+          weight: 700
